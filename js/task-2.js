@@ -26,7 +26,7 @@ const images = [
 ];
 
 const gallery = document.querySelector(".gallery");
-const newImg = images.map((image) => `<li class = "gallery-item"><img src = "${image.url}" alt = "${image.alt}"</li>`).join("");
+const newImg = images.map((image) => `<li class = "gallery-item"><img src = "${image.url}" alt = "${image.alt}"></li>`).join("");
 gallery.insertAdjacentHTML("beforeend", newImg);
 
 //У 2 завданні не вставляйте елементи списку по черзі в циклі. 
